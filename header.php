@@ -1,5 +1,3 @@
-
-
 <?php 
     if (isset($_GET["checkout"])) {
         setcookie("user", null, -1, '/');
@@ -20,15 +18,13 @@
                         <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="">Trang chủ</a>
+                                    <a class="nav-link" href="index.php">Trang chủ</a>
                                 </li>
-                               
                                 <li class="nav-item">
-                                    <a class="nav-link" href="">sản phẩm</a>
+                                    <a class="nav-link" href="product.php">sản phẩm</a>
                                 </li>
-
                                 <li class="nav-item">
-                                    <a class="nav-link" href="">Liên hệ</a>
+                                    <a class="nav-link" href="contact.php">Liên hệ</a>
                                 </li>
 
                                 <?php 
@@ -81,6 +77,7 @@
                         </div>
                         <div class="hearer_icon d-flex">
                             <a id="search_1" href="javascript:void(0)" style="cursor: pointer; margin: right -20px;"><i class="ti-search" style="font-size:20px"></i></a>
+                            <!-- <a href=""><i class="ti-heart"></i></a> -->
                             <div >
                                 <a class="" href="cart.php" id="navbarDropdown3" role="button" > <!-- data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" -->
                                     <i class="fa fa-cart-plus"style="font-size:20px"></i>
@@ -115,22 +112,14 @@
                 </div>
             </div>
         </div>
-        <?php 
-    $current_page = basename($_SERVER['PHP_SELF']);
-    if ($current_page == 'index.php' || $current_page == 'product.php' || $current_page == 'contact.php') {
-    ?>
-    <div class="search_input" id="search_input_box">
-        <div class="container ">
-            <form class="d-flex justify-content-between search-inner" action="product.php" method="GET" autocomplete="off">
-                <input type="text" class="form-control" name="tim" placeholder="Nhập tên sản phẩm cần tìm">
-                <button type="submit" class="btn"></button>
-                <span class="ti-close" id="close_search" title="Close Search"></span>
-            </form>
+        <div class="search_input" id="search_input_box">
+            <div class="container ">
+                <form class="d-flex justify-content-between search-inner" action="product.php" method="GET" autocomplete="off">
+                    <input type="text" class="form-control" name="tim" placeholder="Nhập tên sản phẩm cần tìm">
+                    <button type="submit" class="btn"></button>
+                    <span class="ti-close" id="close_search" title="Close Search"></span>
+                </form>
+            </div>
         </div>
-    </div>
-    <?php 
-    }
-    ?>
-</section>
+    </section>
     <!-- Header part end-->
-

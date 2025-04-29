@@ -29,24 +29,24 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <style>
-.header_bg {
-    background-color: #ecfdff;
-    height: 230px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.padding_top1{
-    padding-top:20px;
-}
-.a1{
-    padding-top:130px;
-}
+    .header_bg {
+        background-color: #ecfdff;
+        height: 230px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .padding_top1{
+        padding-top:20px;
+    }
+    .a1{
+        padding-top:130px;
+    }
 
-.a2{
-    height: 230px;
+    .a2{
+        height: 230px;
 
-}
+    }
 </style>
 
 <body>
@@ -55,13 +55,13 @@
   <!--================Home Banner Area =================-->
   <!-- breadcrumb start-->
   <section class="breadcrumb header_bg" style="padding: 60px 0; text-align: center; background-color: #f5fafe;">
-    <div class="container">
-        <h1 style="font-size: 40px; font-weight: bold; color: #333;">Đăng ký tài khoản mới</h1>
-        <p style="font-size: 18px; color: #666;">Vui lòng điền đầy đủ thông tin bên dưới để đăng ký.</p>
-    </div>
-</section>
+        <div class="container">
+            <h1 style="font-size: 40px; font-weight: bold; color: #333;">Đăng ký tài khoản mới</h1>
+            <p style="font-size: 18px; color: #666;">Vui lòng điền đầy đủ thông tin bên dưới để đăng ký.</p>
+        </div>
+    </section>
 
-  <!-- breadcrumb end-->
+    <!-- breadcrumb end-->
 
     <!--================login_part Area =================-->
     <section class="login_part ">
@@ -158,7 +158,6 @@
         </div>
     </section>
     <!--================login_part end =================-->
-
 
     <!-- jquery plugins here-->
     <!-- jquery -->
